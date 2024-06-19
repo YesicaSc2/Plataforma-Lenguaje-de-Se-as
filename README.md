@@ -1,1 +1,1 @@
-# Plataforma-Lenguaje-de-Se-as
+# Plataforma-Lenguaje-de-Señas
