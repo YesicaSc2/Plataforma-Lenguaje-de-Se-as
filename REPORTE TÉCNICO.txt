@@ -1,0 +1,70 @@
+﻿REPORTE TÉCNICO
+
+
+Grupo: 16
+Integrantes:  Quispe Cayo Rocio del Alba
+                   Sanchez Calle Maria Yesica
+
+
+Objetivo del proyecto: Facilitar el aprendizaje de lenguaje de señas a  estudiantes mediante lecciones interactivas.
+
+
+Desarrollo:
+A lo largo del semestre se fue desarrollando una plataforma para el aprendizaje del lenguaje de señas con inteligencia artificial, se empezó realizando el diseño de los mockups de la plataforma para tener una idea general del proyecto.
+
+
+En el proceso de desarrollo se intentó seguir la metodología scrum, definiendo así los requerimientos e historias de usuario, llegando a implementar el registro de acceso, la página principal de la plataforma y su contenido,como también la inteligencia artificial para detección e clasificación de imágenes y también la barra de progreso de aprendizaje, se plantea desarrollar la interacción del usuario mediante módulos de enseñanza en el cuál se tiene una opción para reforzar lo aprendido mediante un test, el cual nos permitirá activar la cámara y interactuar con la inteligencia artificial reconociendo la señas y haciendo un match para avanzar.
+
+
+También se planteaba desarrollar la sección de palabras en la cuál se desarrollaría un diccionario mediante card 's con su significado, en la sección de foro se plantea intercambiar ideas entre usuarios.         
+
+
+Resultados iniciales:
+En las primeras fases, se logró completar lo siguiente:
+* Creación de mockups para visualizar la idea del proyecto.
+* implementación de la estructura básica de la aplicación.
+* desarrollo de funcionalidades básicas, incluida la interfaz de usuario inicial.
+
+
+Aspectos negativos:
+Lo más desafiante fue la implementación de la IA:
+* la implementación de la IA para el reconocimiento de palabras .
+* Ajustar el modelo de IA para que reconociera las señas correctamente y calculara la precisión fue más complejo de lo que se pensaba.
+* implementar la funcionalidad para que se puedan ingresar nuevas señas y que posteriormente sean reconocidas de manera eficiente.
+
+
+Al ser estas tareas  complicadas cada integrante debía investigar por separado, al dividirnos la investigación de la implementación de la IA se esperaba una mejora y un avance, sin embargo esto llevó a un trabajo redundante en algunas áreas y a un avance casi nulo. Con el paso del tiempo la comunicación entre los miembros del equipo disminuyó, y esto se pudo notar en la coordinación y progreso del proyecto.
+
+
+Aspectos positivos:
+Durante este proyecto, hemos adquirido y aplicado conocimientos en diversas áreas como ser:
+* Para poder aplicar los modelos educativos de enseñanza y aprendizaje interactivo nos basamos en el constructivismo y conductismo.
+* En cuanto a integrar contenido de manera educativa, leímos sobre estándares de interoperabilidad como ser Scorm, xAPI y LTI sin embargo no llegamos a utilizar ninguno de estos.
+* Redes neuronales convolucionales para la clasificación de imágenes y reconocimiento de estas.
+
+
+
+
+Resultados medios:
+En cuanto a la IA se fue probando modelos distintos uno como clasificador de imágenes conteniendo así un gran número de dataset para mayor precisión y otro con redes neuronales convolucionales teniendo en cuenta los puntos de referencia y  ángulos de inclinación de las manos, también se decidió avanzar en la plataforma web, teniendo un avance significativo en este, de esta manera se esperaba que al final nos pudiéramos concentrar netamente en la IA.
+
+
+Áreas de mejora:
+con la IA
+* Usar MediaPipe Hand Landmarker para mejorar la precisión y la capacidad de seguimiento de las manos en tiempo real.
+* Dividir el conjunto de datos en conjuntos de entrenamientos, validación y pruebas para así evaluar el rendimiento del modelo.
+* Para la parte del entrenamiento, se pensó en utilizar modelos pre entrenados en grandes conjuntos de datos de imágenes, para luego ajustarlos específicamente para el reconocimiento de señas.
+* integración a la plataforma web, Con más investigación entendimos que era mejor utilizar frameworks como Tensorflow.js o OpenCV para integrar la IA directamente en la plataforma web. 
+* Considerar el uso de Django en vez de React, esto nos permitirá implementar la IA utilizando Python.
+
+
+Conclusiones: 
+
+
+Se aprendió a utilizar moskitt Bot para el desarrolló de los mockups, exploramos plataformas similares desarrolladas con IA de forma interesante y novedosa.
+
+
+Sin embargo este proyecto ha permitido tener bases sólidas de conocimiento, a pesar del esfuerzo realizado y no haber logrado todos los objetivos, se tiene como desafío aprender a integrar una plataforma con inteligencia artificial.
+
+
+En base a lo aprendido se propone mejorar el desarrolló en proyectos futuros.
